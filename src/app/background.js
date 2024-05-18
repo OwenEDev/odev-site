@@ -1,6 +1,8 @@
+// Background.js
 export default function Background() {
   return (
     <svg
+      id="background-svg"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -51,7 +53,7 @@ s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.
             repeatCount="indefinite"
           />
         </use>
-        <use xlinkHref="#wave" opacty=".9">
+        <use xlinkHref="#wave" opacity=".9">
           <animateTransform
             attributeName="transform"
             attributeType="XML"
