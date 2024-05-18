@@ -5,7 +5,7 @@
 .glassNavBar {
   position: relative;
   z-index: 1;
-  width: 70%;
+  width: 40%;
   height: 100px;
   background: rgba(255, 255, 255, 0.18);
   border-radius: 16px;
@@ -13,7 +13,35 @@
   backdrop-filter: blur(5.4px);
   -webkit-backdrop-filter: blur(5.4px);
   border: 1px solid rgba(255, 255, 255, 0.4);
-  margin:  auto;
+  margin: auto;
   margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  width: 35vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navItem {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navItem a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.navItem a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 

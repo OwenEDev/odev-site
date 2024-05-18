@@ -1,13 +1,13 @@
 import styles from "./page.module.css";
 import Background from "./background";
+import NavBar from "./navbar";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <Background />
-      <div className="content">
-        <div className={styles.glassNavBar}></div>
-      </div>
+      <NavBar />
+      <div className="content"></div>
     </main>
   );
 }
